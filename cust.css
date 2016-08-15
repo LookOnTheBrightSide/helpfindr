@@ -1,0 +1,153 @@
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1.17em; }
+
+h4 {
+  font-size: 1.12em; }
+
+h5 {
+  font-size: 0.83em; }
+
+h6 {
+  font-size: 0.75em; }
+
+body {
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: "Hanken Sans", "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.2; }
+  body::selection {
+    background-color: #495CAA; }
+
+a {
+  text-decoration: none; }
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth {
+  padding: 1rem 1rem 1rem 3rem;
+  margin: 0.2rem;
+  font-weight: 500;
+  font-size: 80%; }
+
+.first {
+  background: url("1.svg") left center no-repeat; }
+
+.second {
+  background: url("2.svg") left center no-repeat; }
+
+.third {
+  background: url("3.svg") left center no-repeat; }
+
+.fourth {
+  background: url("4.svg") left center no-repeat; }
+
+.fifth {
+  background: url("5.svg") left center no-repeat; }
+
+.highlight {
+  display: inline-block;
+  border-bottom: 1px solid #EBE72F;
+  padding: 0 0.2rem; }
+
+.center_heading {
+  text-align: center; }
+
+.top,
+.top__navigation__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; }
+
+.top {
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 3px solid #495CAA; }
+  .top__logo {
+    margin-left: 1rem; }
+    .top__logo img {
+      margin-top: 0.4rem; }
+  .top__navigation__list__link a {
+    border-bottom: 2px solid transparent;
+    margin: 0 1rem;
+    padding: 0.4rem;
+    font-size: 14px;
+    color: #191919; }
+  .top__navigation__list__link:hover a {
+    border-bottom: 2px solid #191919; }
+
+.hero {
+  height: 90vh;
+  width: 100%;
+  background-image: url(hero8.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .hero__welcome, .hero__phrase, .hero__action {
+    color: whitesmoke; }
+  .hero__welcome {
+    font-size: 180%;
+    margin-bottom: 0.5rem; }
+  .hero__phrase {
+    font-size: 120%;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid transparent; }
+  .hero__action {
+    border: 1px solid #0066ff;
+    padding: 0.6rem 2.4rem;
+    background-color: #0066ff;
+    font-size: 120%;
+    pointer: cursor; }
+  .hero__action:hover {
+    background-color: #66a3ff; }
+
+.steps {
+  min-height: 100vh;
+  background-image: url(how_bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto; }
+  .steps__heading {
+    font-size: 140%;
+    font-weight: 500;
+    padding-top: 2rem; }
+  .steps__tagline {
+    margin-top: 1rem;
+    font-weight: 300;
+    padding-bottom: 0.2rem; }
+  .steps__details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.6rem; }
+    .steps__details__student {
+      background-color: #cce0ff; }
+    .steps__details__employer {
+      background-color: #00bdbd; }
+    .steps__details__student, .steps__details__employer {
+      padding: 1.2rem;
+      margin: 1rem;
+      min-width: 30vw; }
+      .steps__details__student__heading, .steps__details__employer__heading {
+        font-size: 130%;
+        font-weight: 500; }
+      .steps__details__student__list, .steps__details__employer__list {
+        position: relative; }
+
+/*# sourceMappingURL=cust.css.map */
