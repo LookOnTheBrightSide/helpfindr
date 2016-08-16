@@ -22,7 +22,7 @@ body {
   font-family: "Hanken Sans", "Helvetica Neue", Helvetica, sans-serif;
   line-height: 1.2; }
   body::selection {
-    background-color: #495CAA; }
+    background-color: #1B2844; }
 
 a {
   text-decoration: none; }
@@ -54,7 +54,7 @@ a {
 
 .highlight {
   display: inline-block;
-  border-bottom: 1px solid #EBE72F;
+  border-bottom: 1px solid #FBD91E;
   padding: 0 0.2rem; }
 
 .center_heading {
@@ -71,7 +71,7 @@ a {
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  border-bottom: 3px solid #495CAA; }
+  border-bottom: 3px solid #1B2844; }
   .top__logo {
     margin-left: 1rem; }
     .top__logo img {
@@ -96,7 +96,7 @@ a {
   align-items: center;
   justify-content: center; }
   .hero__welcome, .hero__phrase, .hero__action {
-    color: whitesmoke; }
+    color: #F0F3F1; }
   .hero__welcome {
     font-size: 180%;
     margin-bottom: 0.5rem; }
@@ -107,13 +107,13 @@ a {
     margin-bottom: 2.5rem;
     border-bottom: 1px solid transparent; }
   .hero__action {
-    border: 1px solid #0066ff;
+    border: 1px solid #0086EF;
     padding: 0.6rem 2.4rem;
-    background-color: #0066ff;
+    background-color: #0086EF;
     font-size: 120%;
     pointer: cursor; }
   .hero__action:hover {
-    background-color: #66a3ff; }
+    background-color: #56b5ff; }
 
 .steps {
   min-height: 100vh;
@@ -137,7 +137,7 @@ a {
     align-items: center;
     margin-top: 1.6rem; }
     .steps__details__student {
-      background-color: #cce0ff; }
+      background-color: #bce2ff; }
     .steps__details__employer {
       background-color: #00bdbd; }
     .steps__details__student, .steps__details__employer {
