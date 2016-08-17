@@ -20,6 +20,7 @@ $color-black: #191919
 $color-white: #F0F3F1
 $color-brand: #0086EF
 $color-gray: #687D8F
+$color-background: #f4f8fb
 
 // fonts
 $paragraph-text: 14px
@@ -40,7 +41,6 @@ h6
 	font-size: 0.75em
 
 body
-	// background-color: $color-white
 	font-size: 16px
 	box-sizing: border-box
 	font-family: $main-font
@@ -60,8 +60,6 @@ a
 	margin: 0.2rem
 	font-weight: 500
 	font-size: 80%
-	// background: url('1.svg') left center no-repeat
-
 
 .first
 	background: url('1.svg') left center no-repeat
@@ -73,8 +71,7 @@ a
 	background: url('4.svg') left center no-repeat
 .fifth
 	background: url('5.svg') left center no-repeat
-
-
+// Global
 .highlight
 	display: inline-block
 	border-bottom: 1px solid $color-secondary
@@ -128,13 +125,10 @@ a
 	&__phrase
 		font-size: 120%
 		font-weight: 100
-		// background-color: $color-secondary
-		// padding: 0.2rem
-		// color: black
 		letter-spacing: 1px
 		margin-bottom: 2.5rem
 		border-bottom: 1px solid transparent
-	&__action
+	&__action // to make global button styling ??
 		border: 1px solid $color-brand
 		padding: 0.6rem 2.4rem
 		background-color: $color-brand

@@ -1,0 +1,19 @@
+@import "cust"
+.main
+	background-color: $color-background
+	min-height: 100vh
+
+.post__foot__apply__link
+	border: 1px solid $color-brand
+	padding: 0.6rem 2.4rem
+	background-color: $color-brand
+	font-size: 120%
+	pointer: cursor
+	border-bottom: 3px solid transparent
+	transition-property: border-bottom
+	transition-property: background-color
+	transition-duration: .4s
+	&:hover
+		border-bottom: 3px solid red
+		color: white
+		background-color: lighten($color-brand,30)
