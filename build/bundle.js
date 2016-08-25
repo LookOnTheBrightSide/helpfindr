@@ -255,6 +255,79 @@
 		}
 	});
 	
+	var SiteFooter = _react2.default.createClass({
+		displayName: 'SiteFooter',
+	
+		render: function render() {
+			return _react2.default.createElement(
+				'footer',
+				{ className: 'main-footer' },
+				_react2.default.createElement(
+					'ul',
+					{ className: 'main-footer__list--left' },
+					_react2.default.createElement(
+						'li',
+						{ className: 'main-footer__list__item' },
+						_react2.default.createElement(
+							'a',
+							{ href: '#' },
+							'Email'
+						)
+					),
+					_react2.default.createElement(
+						'li',
+						{ className: 'main-footer__list__item' },
+						_react2.default.createElement(
+							'a',
+							{ href: '#' },
+							'Skype'
+						)
+					),
+					_react2.default.createElement(
+						'li',
+						{ className: 'main-footer__list__item' },
+						_react2.default.createElement(
+							'a',
+							{ href: '#' },
+							'Phone'
+						)
+					)
+				),
+				_react2.default.createElement(
+					'ul',
+					{ className: 'main-footer__list--right' },
+					_react2.default.createElement(
+						'li',
+						{ className: 'main-footer__list__item' },
+						_react2.default.createElement(
+							'a',
+							{ href: '#' },
+							'Instagram'
+						)
+					),
+					_react2.default.createElement(
+						'li',
+						{ className: 'main-footer__list__item' },
+						_react2.default.createElement(
+							'a',
+							{ href: '#' },
+							'Facebook'
+						)
+					),
+					_react2.default.createElement(
+						'li',
+						{ className: 'main-footer__list__item' },
+						_react2.default.createElement(
+							'a',
+							{ href: '#' },
+							'Twitter'
+						)
+					)
+				)
+			);
+		}
+	});
+	
 	var App = _react2.default.createClass({
 		displayName: 'App',
 	
@@ -263,7 +336,8 @@
 				'div',
 				null,
 				_react2.default.createElement(Navigation, null),
-				_react2.default.createElement(MainSection, null)
+				_react2.default.createElement(MainSection, null),
+				_react2.default.createElement(SiteFooter, null)
 			);
 		}
 	});

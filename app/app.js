@@ -65,12 +65,32 @@ let MainSection = React.createClass({
 	}
 });
 
+let SiteFooter = React.createClass({
+	render: function(){
+		return (
+				<footer className ="main-footer">
+					<ul className ="main-footer__list--left">
+						<li className ="main-footer__list__item"><a href="#">Email</a></li>
+						<li className ="main-footer__list__item"><a href="#">Skype</a></li>
+						<li className ="main-footer__list__item"><a href="#">Phone</a></li>
+					</ul>
+					<ul className ="main-footer__list--right">
+						<li className ="main-footer__list__item"><a href="#">Instagram</a></li>
+						<li className ="main-footer__list__item"><a href="#">Facebook</a></li>
+						<li className ="main-footer__list__item"><a href="#">Twitter</a></li>
+					</ul>
+				</footer>
+			)
+	}
+})
+
 let App = React.createClass({
 	render: function(){
 		return (
 				<div>
 					<Navigation />
 					<MainSection />
+					<SiteFooter />
 				</div>
 			)
 	}

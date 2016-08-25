@@ -150,4 +150,22 @@ a {
       .steps__details__student__list, .steps__details__employer__list {
         position: relative; }
 
+.main-footer,
+.main-footer > ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.main-footer {
+  height: 60px;
+  background-color: #333333;
+  font-size: 14px;
+  justify-content: space-around; }
+  .main-footer ul li {
+    padding-left: 1.4rem; }
+    .main-footer ul li a {
+      color: #999999; }
+      .main-footer ul li a:hover {
+        color: #e5e5e5; }
+
 /*# sourceMappingURL=cust.css.map */
