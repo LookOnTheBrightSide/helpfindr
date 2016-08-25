@@ -168,4 +168,24 @@ a {
     .main-footer ul li a:hover {
       color: #e5e5e5; }
 
+.register {
+  background-image: url(hero7.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+  .register .form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    background-color: rgba(25, 25, 25, 0.7);
+    max-width: 500px;
+    color: white; }
+    .register .form p {
+      display: block; }
+
 /*# sourceMappingURL=cust.css.map */
