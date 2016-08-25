@@ -125,7 +125,7 @@ a {
   .steps__heading {
     font-size: 140%;
     font-weight: 500;
-    padding-top: 2rem; }
+    padding-top: 5rem; }
   .steps__tagline {
     margin-top: 1rem;
     font-weight: 300;
@@ -135,7 +135,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 1.6rem; }
+    margin-top: 3rem; }
     .steps__details__student {
       background-color: #bce2ff; }
     .steps__details__employer {
