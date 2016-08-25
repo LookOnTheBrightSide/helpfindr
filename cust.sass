@@ -176,6 +176,7 @@ a
 			&__list
 				position: relative
 // Main footer
+
 .main-footer,
 .main-footer > ul
 	+display_flex
@@ -186,9 +187,36 @@ a
 	font-size: $paragraph-text
 	justify-content: space-around
 	ul
-		li
+		li:not(:first-child)
 			padding-left: 1.4rem
+		li
 			a
 				color: lighten($color-black,50)
 				&:hover
 					color: lighten($color-black,80)
+	// &__list__right
+	// 	&__item--twitter,
+	// 	&__item--facebook,
+	// 	&__item--instagram
+			// position: relative
+// .main-footer__list__right__item--twitter::before,
+// .main-footer__list__right__item--facebook::before,
+// .main-footer__list__right__item--instagram::before
+// 	position: absolute
+// 	height: 24px
+// 	width: 24px
+// 	left: 0
+// 	padding-left: 0.8rem
+
+// .main-footer__list__right__item--twitter::before,
+// 	content: url('images/twitter.svg')
+// 	&:hover
+// 		cursor: pointer
+// .main-footer__list__right__item--facebook::before,
+// 	content: url('images/facebook.svg')
+// 	&:hover
+// 		cursor: pointer
+// .main-footer__list__right__item--instagram::before
+// 	content: url('images/instagram.svg')
+// 	&:hover
+// 		cursor: pointer

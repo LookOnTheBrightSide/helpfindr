@@ -69,15 +69,15 @@ let SiteFooter = React.createClass({
 	render: function(){
 		return (
 				<footer className ="main-footer">
-					<ul className ="main-footer__list--left">
-						<li className ="main-footer__list__item"><a href="#">Email</a></li>
-						<li className ="main-footer__list__item"><a href="#">Skype</a></li>
-						<li className ="main-footer__list__item"><a href="#">Phone</a></li>
+					<ul className ="main-footer__list__left">
+						<li className ="main-footer__list__left__item main-footer__list__left__item--email"><a href="#">Email</a></li>
+						<li className ="main-footer__list__left__item main-footer__list__left__item--skype"><a href="#">Skype</a></li>
+						<li className ="main-footer__list__left__item main-footer__list__left__item--phone"><a href="#">Phone</a></li>
 					</ul>
-					<ul className ="main-footer__list--right">
-						<li className ="main-footer__list__item"><a href="#">Instagram</a></li>
-						<li className ="main-footer__list__item"><a href="#">Facebook</a></li>
-						<li className ="main-footer__list__item"><a href="#">Twitter</a></li>
+					<ul className ="main-footer__list__right">
+						<li className ="main-footer__list__right__item main-footer__list__right__item--instagram"><a href="#" className="instagram">Instagram</a></li>
+						<li className ="main-footer__list__right__item main-footer__list__right__item--facebook"><a href="#" className="facebook">Facebook</a></li>
+						<li className ="main-footer__list__right__item main-footer__list__right__item--twitter"><a href="#" className="twitter">Twitter</a></li>
 					</ul>
 				</footer>
 			)

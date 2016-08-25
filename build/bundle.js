@@ -264,10 +264,10 @@
 				{ className: 'main-footer' },
 				_react2.default.createElement(
 					'ul',
-					{ className: 'main-footer__list--left' },
+					{ className: 'main-footer__list__left' },
 					_react2.default.createElement(
 						'li',
-						{ className: 'main-footer__list__item' },
+						{ className: 'main-footer__list__left__item main-footer__list__left__item--email' },
 						_react2.default.createElement(
 							'a',
 							{ href: '#' },
@@ -276,7 +276,7 @@
 					),
 					_react2.default.createElement(
 						'li',
-						{ className: 'main-footer__list__item' },
+						{ className: 'main-footer__list__left__item main-footer__list__left__item--skype' },
 						_react2.default.createElement(
 							'a',
 							{ href: '#' },
@@ -285,7 +285,7 @@
 					),
 					_react2.default.createElement(
 						'li',
-						{ className: 'main-footer__list__item' },
+						{ className: 'main-footer__list__left__item main-footer__list__left__item--phone' },
 						_react2.default.createElement(
 							'a',
 							{ href: '#' },
@@ -295,31 +295,31 @@
 				),
 				_react2.default.createElement(
 					'ul',
-					{ className: 'main-footer__list--right' },
+					{ className: 'main-footer__list__right' },
 					_react2.default.createElement(
 						'li',
-						{ className: 'main-footer__list__item' },
+						{ className: 'main-footer__list__right__item main-footer__list__right__item--instagram' },
 						_react2.default.createElement(
 							'a',
-							{ href: '#' },
+							{ href: '#', className: 'instagram' },
 							'Instagram'
 						)
 					),
 					_react2.default.createElement(
 						'li',
-						{ className: 'main-footer__list__item' },
+						{ className: 'main-footer__list__right__item main-footer__list__right__item--facebook' },
 						_react2.default.createElement(
 							'a',
-							{ href: '#' },
+							{ href: '#', className: 'facebook' },
 							'Facebook'
 						)
 					),
 					_react2.default.createElement(
 						'li',
-						{ className: 'main-footer__list__item' },
+						{ className: 'main-footer__list__right__item main-footer__list__right__item--twitter' },
 						_react2.default.createElement(
 							'a',
-							{ href: '#' },
+							{ href: '#', className: 'twitter' },
 							'Twitter'
 						)
 					)

@@ -161,12 +161,12 @@ a {
   background-color: #333333;
   font-size: 14px;
   justify-content: space-around; }
-  .main-footer ul li {
+  .main-footer ul li:not(:first-child) {
     padding-left: 1.4rem; }
-    .main-footer ul li a {
-      color: #999999; }
-      .main-footer ul li a:hover {
-        color: #e5e5e5; }
+  .main-footer ul li a {
+    color: #999999; }
+    .main-footer ul li a:hover {
+      color: #e5e5e5; }
 
 .main {
   background-color: #f4f8fb;
