@@ -1,0 +1,19 @@
+// Main footer
+
+.main-footer,
+.main-footer > ul
+	+display_flex
+	align-items: center
+.main-footer
+	height: 60px
+	background-color: lighten($color-black,10)
+	font-size: $paragraph-text
+	justify-content: space-around
+	ul
+		li:not(:first-child)
+			padding-left: 1.4rem
+		li
+			a
+				color: lighten($color-black,50)
+				&:hover
+					color: lighten($color-black,80)

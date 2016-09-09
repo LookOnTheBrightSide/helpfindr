@@ -1,0 +1,84 @@
+# Buttons Large
+
+```
+<button class="button">Button</button>
+```
+
+```
+<button class="button button-primary">Primary</button>
+```
+
+```
+<button class="button button-active">Active</button>
+```
+
+```
+<button class="button button-disabled">Disabled</button>
+```
+
+# Buttons Mini
+
+```
+<button class="button-mini">Mini Button</button>
+```
+
+```
+<button class="button-mini button-mini-primary">Mini Primary</button>
+```
+
+```
+<button class="button-mini button-mini-active">Mini Active</button>
+```
+
+```
+<button class="button-mini button-mini-disabled">Mini Disabled</button>
+```
+
+Colors
+=======
+
+```
+<div class="color color-main styleguide-text-color">Color Main</div>
+```
+
+```
+<div class="color color-secondary styleguide-text-color">Color Secondary</div>
+```
+
+Typography
+=======
+
+```
+<h1>Heading 1</h1>
+```
+
+```
+<h2>Heading 2</h2>
+```
+
+```
+<h3>Heading 3</h3>
+```
+
+```
+<h4>Heading 4</h4>
+```
+
+```
+<h5>Heading 5</h5>
+```
+
+```
+<h6>Heading 6</h6>
+```
+
+```
+<p>Paragraph</p>
+
+<p>
+  This is a sample paragraph. Iceland mustache hot chicken hella next level,
+  crucifix flannel polaroid mlkshk biodiesel poke slow-carb hashtag helvetica.
+  Hot chicken organic mixtape, cold-pressed pok pok cornhole viral put a bird on it.
+  Man braid lyft lo-fi selfies bespoke cronut blog.
+</p>
+```

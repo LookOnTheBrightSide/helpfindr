@@ -1,0 +1,26 @@
+.top,
+.top__navigation__list
+  +display_flex
+  flex-direction: row
+.top
+  height: 50px
+  align-items: center
+  justify-content: space-between
+  border-bottom: 3px solid $color-highlight
+  &__navigation__list
+    padding-top: 0.8rem
+
+  &__logo
+    margin-left: 1rem
+    img
+      margin-top: 0.4rem
+  &__navigation__list__link
+    a
+      border-bottom: 2px solid transparent
+      margin: 0 1rem
+      padding: 0.4rem
+      font-size: $paragraph-text
+      color: $color-black
+  &__navigation__list__link:hover
+    a
+      border-bottom: 2px solid $color-black

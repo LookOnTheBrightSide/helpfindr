@@ -1,0 +1,101 @@
+a
+	text-decoration: none
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth
+	padding: 1rem 1rem 1rem 3rem
+	margin: 0.2rem
+	font-weight: 500
+	font-size: 80%
+
+.first
+	background: url('1.svg') left center no-repeat
+.second
+	background: url('2.svg') left center no-repeat
+.third
+	background: url('3.svg') left center no-repeat
+.fourth
+	background: url('4.svg') left center no-repeat
+.fifth
+	background: url('5.svg') left center no-repeat
+// Global
+.highlight
+	display: inline-block
+	border-bottom: 1px solid $color-secondary
+	padding: 0 0.2rem
+.center_heading
+	text-align: center
+
+
+.hero
+	height: 90vh
+	width: 100%
+	background-image: url(hero5.jpg)
+	background-size: cover
+	+display_flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
+	&__welcome,
+	&__phrase,
+	&__action
+		color: $color-white
+	&__welcome
+		font-size: 180%
+		margin-bottom: 0.5rem
+	&__phrase
+		font-size: 120%
+		font-weight: 100
+		letter-spacing: 1px
+		margin-bottom: 2.5rem
+		border-bottom: 1px solid transparent
+	&__action
+		border: 1px solid $color-brand
+		padding: 0.6rem 2.4rem
+		background-color: $color-brand
+		font-size: 120%
+		pointer: cursor
+	&__action:hover
+		background-color: lighten($color-brand,20)
+
+// steps
+
+.steps
+	// background-color: $color-white
+	min-height: 100vh
+	// width: 80vw
+	background-image: url(how_bg.svg)
+	background-repeat: no-repeat
+	background-size: cover
+	// background-color: rgba(black,0.7)
+	+center
+	&__heading
+		font-size: 140%
+		font-weight: 500
+		padding-top: 5rem
+	&__tagline
+		margin-top: 1rem
+		font-weight: 300
+		padding-bottom: 0.2rem
+	&__details
+		+display_flex
+		justify-content: center
+		align-items: center
+		margin-top: 3rem
+		&__student
+			background-color: lighten($color-brand, 40)
+		&__employer
+			background-color: darken(azure,60)
+		&__student,
+		&__employer
+			padding: 1.2rem
+			margin: 1rem
+			min-width: 30vw
+			&__heading
+				font-size: 130%
+				font-weight: 500
+			&__list
+				position: relative

@@ -1,0 +1,89 @@
+.button
+  padding: 0.4rem 0.6rem
+  font-size: 0.8rem
+  // border-radius: 0.6rem
+  text-transform: uppercase
+  font-weight: 400
+  outline: none
+  &--main
+    border: 1px solid $color-main
+    color: white
+    background-color: $color-main
+    &:hover
+      box-shadow: 0 1px 5px $color-main
+  &--secondary
+    border: 1px solid $color-main
+    color: $color-main
+    background-color: white
+    &:hover
+      box-shadow: 0 1px 5px $color-main
+
+  &:focus
+    outline: none
+  &:hover
+    outline: none
+    cursor: pointer
+
+
+.styleguide-text-color
+  color: white
+  margin: auto auto
+  padding: 0.4rem
+.color
+  width: 400px
+  height: 50px
+  margin: 0.4rem
+
+.color-main
+  background-color: $color-main
+.color-secondary
+  background-color: $color-main
+
+
+h1,h2,h3,h4,h5,h6,p
+  font-family: "Roboto"
+
+
+p
+  font-size: 1rem
+  line-height: 140%
+
+
+//
+//
+//
+
+
+.button
+  padding: 1rem 1.4rem
+  border: 1px solid transparent
+  background-color: red
+  &-primary
+    background-color: $color-brand
+    color: $color-main
+  &-active
+    background-color: darken($color-brand, 30%)
+  &-disabled
+    background-color: lighten($color-brand,40%)
+
+
+
+
+
+
+// Mini Buttons
+
+.button-mini
+  padding: 0.4rem 0.8rem
+  border: 1px solid transparent
+  &-primary
+    background-color: $color-brand
+    color: $color-main
+  &-active
+    background-color: darken($color-brand, 30%)
+  &-disabled
+    background-color: lighten($color-brand,40%)
+
+
+a.lsg-logo
+  display: none
